@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\Response;
 class UserController extends Controller
 {
    
-    public function index(): View
+    public function index(Request $request): View
     {
         abort_if(Gate::denies('user_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
        

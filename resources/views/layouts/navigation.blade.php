@@ -40,6 +40,51 @@
                 </a>
             </li>
 
+            <li class="nav-item">
+                <a href="{{ route('admin.categories.index') }}" class="nav-link">
+                    <i class="nav-icon fa fa-book"></i>
+                    <p>
+                        {{ __('Category') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('admin.companies.index') }}" class="nav-link">
+                    <i class="nav-icon fa fa-book"></i>
+                    <p>
+                        {{ __('Company') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('admin.jobs.index') }}" class="nav-link">
+                    <i class="nav-icon fa fa-book"></i>
+                    <p>
+                        {{ __('Job') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('admin.testimonials.index') }}" class="nav-link">
+                    <i class="nav-icon fa fa-book"></i>
+                    <p>
+                        {{ __('Testimonial') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('admin.contacts.index') }}" class="nav-link">
+                    <i class="nav-icon fa fa-book"></i>
+                    <p>
+                        {{ __('Contact') }}
+                    </p>
+                </a>
+            </li>
+
         </ul>
     </nav>
     <!-- /.sidebar-menu -->
